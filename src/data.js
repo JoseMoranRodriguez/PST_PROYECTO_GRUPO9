@@ -27,7 +27,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Docena de mini sanduches",
-    img: "img/Product-3.png",
+    img: "img/Product-3.jpg",
     price: 4,
     company: "Sanducheria Neisser",
     info:
