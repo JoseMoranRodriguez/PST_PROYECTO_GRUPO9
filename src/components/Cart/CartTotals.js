@@ -44,7 +44,13 @@ export default function CartTotals({value,history}) {
                                     <ButtonContainer>
                                         Rastreo de Producto
                                     </ButtonContainer>
-                     </Link>   
+                     </Link>
+                     <Link to='/ubicacion'>
+                                    <ButtonContainer>
+                                        Tiendas cercanas
+                                    </ButtonContainer>
+                     </Link>
+
                </div>
             </div>
             </div> 
