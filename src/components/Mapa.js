@@ -5,7 +5,7 @@ export default class Mapa extends Component {
         return (
             <div>
                 <h6 className>
-                <img src={mapa} className="center" />
+                <img src={mapa} alt="mapa"className="center" />
                 </h6>
             </div>
         )
