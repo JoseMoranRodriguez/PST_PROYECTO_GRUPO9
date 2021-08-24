@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import PayPalButton from './PayPalButton'
+import { ButtonContainer } from '../Button';
 export default function CartTotals({value,history}) {
     const{cartSubTotal,cartTax,cartTotal,clearCart}= value;
     return (
@@ -39,6 +40,11 @@ export default function CartTotals({value,history}) {
                    clearCart={clearCart} 
                    history={history}
                    />
+                   <Link to='/mapa'>
+                                    <ButtonContainer>
+                                        Rastreo de Producto
+                                    </ButtonContainer>
+                     </Link>   
                </div>
             </div>
             </div> 

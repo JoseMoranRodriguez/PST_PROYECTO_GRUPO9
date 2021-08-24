@@ -9,6 +9,7 @@ import Cart from './components/Cart';
 import Default from './components/Default';
 import Modal from './components/Modal';
 import Login from './components/Login';
+import Mapa from  './components/Mapa';
 class App extends Component {
   render(){
    return (
@@ -19,6 +20,7 @@ class App extends Component {
         <Route exact path="/" component={Login}/>
         <Route path="/details" component={Details}/>
         <Route path="/cart" component={Cart}/>
+        <Route path="/mapa" component={Mapa}/>
         <Route component={Default}/>
       </Switch>
       <Modal />
